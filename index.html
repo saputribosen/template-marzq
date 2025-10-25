@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Membership Aryo Brokolly — Keuntungan & Langganan</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <style>
+    :root {
+      --accent: #0d6efd;
+      --muted: #aab4c3;
+      --bg: #071226;
+      --note-bg: rgba(13, 110, 253, 0.08);
+    }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: linear-gradient(180deg, #071226 0%, #08182e 100%);
+      color: #e6eef8;
+      margin: 0;
+    }
+
+    .container-card {
+      max-width: 960px;
+      margin: 50px auto;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .avatar img {
+      width: 120px;
+      height: 120px;
+      border-radius: 16px;
+      border: 2px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .title h1 {
+      font-size: 22px;
+      margin-bottom: 6px;
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .sub {
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .btn-primary-cta {
+      background: linear-gradient(90deg, var(--accent), #2a7cff);
+      color: #fff;
+      padding: 12px 18px;
+      border-radius: 10px;
+      font-weight: 600;
+      border: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: #cfe6ff;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 10px 14px;
+      border-radius: 10px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin-top: 24px;
+    }
+
+    .feature {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.04);
+      border-radius: 10px;
+      padding: 16px;
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      transition: all 0.3s;
+    }
+
+    .feature:hover {
+      transform: translateY(-4px);
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .feature .icon {
+      width: 42px;
+      height: 42px;
+      background: rgba(13, 110, 253, 0.1);
+      border-radius: 8px;
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+    }
+
+    .feature h4 {
+      margin: 0;
+      font-size: 15px;
+      color: #fff;
+    }
+
+    .feature p {
+      margin-top: 6px;
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.4;
+    }
+
+    /* === Catatan diperjelas === */
+    .note {
+      background: var(--note-bg);
+      border-left: 4px solid var(--accent);
+      border-radius: 10px;
+      margin-top: 30px;
+      padding: 18px 20px;
+      color: #e6eef8;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .note h5 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .note ul {
+      margin: 8px 0 0 22px;
+      padding: 0;
+    }
+
+    .note li {
+      margin-bottom: 6px;
+      color: #d1d9e6;
+    }
+
+    /* === Video Showcase === */
+    .videos {
+      margin-top: 32px;
+    }
+
+    .videos h4 {
+      font-size: 18px;
+      margin-bottom: 16px;
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+    }
+
+    .video-box {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      aspect-ratio: 16/9;
+    }
+
+    .video-box iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    .footer {
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 28px;
+      text-align: center;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      padding-top: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-card">
+    <div class="hero">
+      <div class="avatar">
+        <img src="https://github.com/aryobrokollyy/aryok/raw/main/aha.png" alt="Avatar Aryo Brokolly" />
+      </div>
+      <div class="title">
+        <h1>Akun Khusus Membership — Aryo Brokolly</h1>
+        <p class="sub">Gabung menjadi member resmi dan nikmati akses eksklusif setiap bulan.</p>
+        <div class="mt-3">
+          <a class="btn-primary-cta" href="https://www.youtube.com/@aryobrokolly/join" target="_blank">
+            <i class="fa fa-youtube-play"></i> Gabung Membership Sekarang
+          </a>
+          <a class="btn-outline" href="https://t.me/aryobrokoly" target="_blank">
+            <i class="fa fa-telegram"></i> Kontak Admin
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fitur -->
+    <div class="features">
+      <div class="feature">
+        <div class="icon"><i class="fa fa-wifi"></i></div>
+        <div>
+          <h4>Info & Trik Inject Kuota</h4>
+          <p>Dapatkan update dan tutorial trik inject kuota terbaru hanya untuk member aktif.</p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="icon"><i class="fa fa-bolt"></i></div>
+        <div>
+          <h4>Trik Terbaru & Eksperimen</h4>
+          <p>Member mendapatkan akses awal terhadap metode injeksi dan eksperimen terbaru.</p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="icon"><i class="fa fa-server"></i></div>
+        <div>
+          <h4>Bonus Backup Config OpenClash</h4>
+          <p>Download file konfigurasi OpenClash premium yang sudah diuji dan siap digunakan.</p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="icon"><i class="fa fa-lock"></i></div>
+        <div>
+          <h4>Akun VPN Eksklusif</h4>
+          <p>Member berhak atas akun VPN pribadi dengan performa dan keamanan lebih tinggi.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video Showcase -->
+    <div class="videos">
+      <h4><i class="fa fa-play-circle"></i> Cuplikan Video Membership</h4>
+      <div class="video-grid">
+        <div class="video-box">
+          <iframe src="https://www.youtube.com/embed/3x9jy5Ol-7s?si=0oij_cu5_Pb7-Haa" title="Membership Aryo Brokolly 1" allowfullscreen></iframe>
+        </div>
+        <div class="video-box">
+          <iframe src="https://www.youtube.com/embed/oK3GEe9AnBk?si=NHb1IBAs1E_ap4uU" title="Membership Aryo Brokolly 2" allowfullscreen></iframe>
+        </div>
+        <div class="video-box">
+          <iframe src="https://www.youtube.com/embed/3x9jy5Ol-7s?si=JlLb6ITB8RNS1OjO" title="Membership Aryo Brokolly 3" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- Catatan -->
+    <!-- NOTE AREA -->
+    <div class="note">
+      <h5><i class="fa fa-info-circle"></i> Catatan Penting untuk Member</h5>
+      <ul>
+        <li><strong>Selalu Update:</strong> Tim akan memberikan notifikasi ketika ada paket yang <em>koid</em> atau muncul versi terbaru.</li>
+        <li><strong>Jadwal Pembaruan:</strong> Semua akun, trik, dan file konfigurasi akan diperbarui setiap <b>30 hari (1 bulan)</b>.</li>
+        <li><strong>Notifikasi:</strong> Aktifkan notifikasi di YouTube agar tidak tertinggal update.</li>
+      </ul>
+    </div>
+    <div class="footer" aria-hidden="false">
+      <div>
+        <span class="small-muted">Pastikan Anda sudah bergabung di Membership YouTube <em>Aryo Brokolly</em> untuk mengakses seluruh konten.</span>
+      </div>
+      <div>
+        <span class="small-muted">Keamanan: jangan bagikan kredensial membership ke publik.</span>
+      </div>
+    </div>
+
+    <div class="footer">
+      © 2025 Aryo Brokolly — Membership Resmi. Semua hak dilindungi.
+    </div>
+  </div>
+</body>
+
+</html>
